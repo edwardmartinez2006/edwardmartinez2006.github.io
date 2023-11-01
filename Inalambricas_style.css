@@ -1,0 +1,180 @@
+#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(61, 61, 61);
+    border-radius: 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #949494;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#Definición{
+    background-color: rgb(255, 148, 170);
+}
+#Redes_I{
+    border-radius: 20px;
+    height: 300px;
+    width: 2800px;
+}
+
+#D_F{
+    background-color: rgb(55, 125, 255);
+    border-radius: 20px;
+}
+#D_F:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#D_F_img{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+
+
+#P_A{
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+}
+#P_A:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#P_A_img{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+
+#R_I{
+    background-color: rgb(55, 125, 255);
+    border-radius: 20px;
+}
+#R_I:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#R_I_img{
+    border-radius: 20px;
+    height: 250px;
+    width: auto;
+}
+
+#Antenas{
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+}
+#Antenas:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Antena_img{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+
+#C_F{
+    background-color: rgb(55, 125, 255);
+    border-radius: 20px;
+}
+#C_F:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#C_F_img{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+
+#S_G{
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+}
+#S_G:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#S_G_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#Seguridad{
+    background-color: rgb(55, 125, 255);
+    border-radius: 20px;
+}
+#Seguridad:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#S_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#P_C{
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+}
+#P_C:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#P_C_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+#Ventajas{
+    background-color: rgb(203, 203, 255);
+}
+#Desventajas{
+    background-color: rgb(255, 198, 198);
+}
+
+

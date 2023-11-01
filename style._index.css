@@ -1,0 +1,19 @@
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: gray;
+    width: 1000px;
+    height: 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+#header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: black;
+    font-size: 25px;
+}
+p{
+    color: black;
+    font-size: 20px;
+}

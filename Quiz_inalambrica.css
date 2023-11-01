@@ -1,0 +1,13 @@
+#Verificar_2{
+    height: 100px;
+    width: auto;
+}
+#Enviar{
+    background-color: rgb(255, 65, 65);
+    height: 50px;
+    width: auto;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(255, 212, 251);
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario programacion</title>
+    <link rel="icon" href="imagenes/ICONO.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Quiz_programacion.css">
+</head>
+<body>
+    <a href="main.html">
+        <img src="imagenes/casita.png" alt="inicio" height="50px" width="50px">
+    </a>
+
+    <form id="quizForm4" action="mailto: edwartinez2006@gmail.com" method="post" enctype="text/plain">
+        <h2>CUESTIONARIO DE PROGRAMACIÓN</h2>
+        <p>Ingresa tu nombre: <input type="text" name="Name" ></p>
+        <fieldset>
+            <legend>Pregunta 1: ¿Qué es la programación?</legend>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Correcta_1"  onclick="respuesta(1,this)"/>
+                 La programación se refiere al proceso de diseñar, escribir, probar y mantener el código fuente de un programa de computadora.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 La programación es el proceso de diseñar hardware para computadoras.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 La programación es simplemente el uso de software existente en una computadora.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 La programación se refiere a la reparación de computadoras.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 2: ¿Cuál es el propósito de la programación? </legend>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Correcta_2" onclick="respuesta(2,this)" />
+                 El propósito de la programación es crear instrucciones específicas para una computadora, indicándole qué acciones debe llevar a cabo.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 La programación tiene como propósito hacer que las computadoras funcionen sin electricidad.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Preguntra_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 La programación se utiliza para escribir libros y novelas. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 El propósito de la programación es crear instrucciones específicas para una computadora, indicándole qué acciones debe llevar a cabo.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 3: ¿Qué elementos esenciales componen la programación web?</legend>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Los elementos esenciales de la programación web incluyen pizza, música y películas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" /> 
+                La programación web no utiliza ningún elemento esencial.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Correcta_3" onclick="respuesta(3,this)" />
+                Los elementos esenciales de la programación web incluyen HTML, CSS, JavaScript y frameworks como React y Angular.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                La programación web solo se compone de una sola tecnología, HTML.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 4: ¿Cuál es la función de HTML en el desarrollo web?  </legend>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 HTML es un lenguaje de programación que permite realizar cálculos matemáticos en una página web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Correcta_4" onclick="respuesta(4,this)" />
+                 HTML se utiliza para estructurar el contenido de una página web, definiendo la organización de los elementos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 HTML es un lenguaje de programación de videojuegos en línea.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)"  />
+                 HTML se utiliza exclusivamente para enviar correos electrónicos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 5: ¿Qué logra CSS en el desarrollo web? </legend>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                 CSS se utiliza para hacer que las páginas web tengan sonidos y efectos especiales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                 CSS se encarga de la funcionalidad y la lógica de una página web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Correcta_5" onclick="respuesta(5,this)" />
+                 CSS se utiliza para dar estilo a las páginas web, controlando aspectos como colores, fuentes y márgenes
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                 CSS es un lenguaje de programación utilizado para crear bases de datos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 6: ¿Qué lenguaje de programación se usa para hacer que las páginas web sean interactivas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" /> 
+                 HTML se utiliza para hacer que las páginas web sean interactivas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" /> 
+                CSS es el lenguaje principal para hacer que las páginas web sean interactivas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" /> 
+                Python se utiliza para la interactividad en las páginas web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Correcta_6" onclick="respuesta(6,this)" />
+                 JavaScript se utiliza para agregar interactividad a las páginas web.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 7: ¿Cuál es el propósito de React y Angular en el desarrollo web? </legend>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Correcta_7" onclick="respuesta(7,this)" />
+                 React y Angular son frameworks utilizados para simplificar el desarrollo de aplicaciones web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 React y Angular son programas de edición de imágenes utilizados en diseño gráfico.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 React y Angular son sistemas operativos para servidores web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 React y Angular son lenguajes de programación para inteligencia artificial.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 8: ¿Qué significa "diseño web receptivo"? </legend>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 El diseño web receptivo se refiere a sitios web que nunca cambian su apariencia, independientemente del dispositivo utilizado.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Correcta_8" onclick="respuesta(8,this)" />
+                 El diseño web receptivo implica crear sitios que se adaptan a diferentes tamaños de pantalla. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 El diseño web receptivo se refiere a sitios web que solo son visibles en teléfonos móviles.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 El diseño web receptivo se relaciona con la velocidad de carga de un sitio web.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 9: ¿Cuál es el propósito de un algoritmo? </legend>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Correcta_9" onclick="respuesta(9,this)" />
+                 Los algoritmos son utilizados para realizar tareas específicas o resolver problemas mediante un conjunto ordenado de instrucciones.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los algoritmos son únicamente utilizados en la cocina para preparar recetas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los algoritmos son programas de computadora que no tienen un propósito específico.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los algoritmos son solo utilizados por matemáticos avanzados.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 10: ¿Qué características debe tener un algoritmo? </legend>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                Un algoritmo solo debe ser preciso, no es necesario que sea efectivo.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                Un algoritmo no necesita tener un orden específico para funcionar. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                Un algoritmo no necesita tener entradas y salidas definidas. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Correcta_10" onclick="respuesta(10,this)" />
+                Las características clave de un algoritmo incluyen precisión, orden, finitud, entradas y salidas, y efectividad.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 11: ¿Dónde se aplican los algoritmos en la informática? </legend>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Correcta_11" onclick="respuesta(11,this)" />
+                 Los algoritmos se aplican en una amplia gama de aplicaciones informáticas, desde matemáticas hasta inteligencia artificial.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 Los algoritmos solo se aplican en la cocina para seguir recetas de cocina.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                Los algoritmos solo se aplican en la música para componer canciones.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                Los algoritmos solo se utilizan en el diseño gráfico.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 12: ¿Qué es Python y en qué se utiliza comúnmente? </legend>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Correcta_12" onclick="respuesta(12,this)" />
+                Python es un lenguaje de programación conocido por su versatilidad y se usa en desarrollo web, análisis de datos y más.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                Python es un reptil que se encuentra en las selvas tropicales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Python es un lenguaje de programación que solo se utiliza para crear videojuegos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Python es un lenguaje de programación obsoleto que ya no se utiliza.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 13: : ¿Qué papel juega JavaScript en el desarrollo web? </legend>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 JavaScript no tiene ningún papel en el desarrollo web.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                JavaScript solo se utiliza en el desarrollo web del lado del servidor.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                JavaScript se utiliza exclusivamente para el diseño gráfico en línea. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Correcta_13" onclick="respuesta(13,this)" />
+                JavaScript es esencial en el desarrollo web del lado del cliente para crear interactividad en las páginas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 14: ¿Dónde se utiliza Java en el desarrollo de software? </legend>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Correcta_14" onclick="respuesta(14,this)" />
+                Java se utiliza en aplicaciones de escritorio, desarrollo web y aplicaciones para dispositivos móviles. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                Java solo se utiliza en la cocina para preparar café.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                Java se utiliza únicamente en la exploración espacial.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                Java no se utiliza en ningún tipo de desarrollo de software.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 15: ¿Cuál es la función de C++ en el desarrollo de software? </legend>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Correcta_15" onclick="respuesta(15,this)" />
+                 C++ se utiliza en el desarrollo de software de sistemas, videojuegos y aplicaciones de alto rendimiento.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                C++ se utiliza exclusivamente en la jardinería. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" /> 
+                C++ se utiliza solo en la industria de la moda.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 C++ no tiene ninguna función en el desarrollo de software.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 16: ¿Para qué se utiliza C# y en qué plataforma es común?  </legend>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 C# se utiliza para diseñar aviones y naves espaciales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Correcta_16" onclick="respuesta(16,this)" />
+                 C# se usa principalmente en el desarrollo de aplicaciones de Windows y es común en la plataforma .NET
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 C# es exclusivamente para el desarrollo de aplicaciones para dispositivos Android.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 C# se usa en la industria de la alimentación para recetas de cocina.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 17: ¿En qué contextos es popular Ruby? </legend>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Correcta_17" onclick="respuesta(17,this)" />
+                 Ruby es conocido por su elegante sintaxis y se utiliza en desarrollo web, automatización y scripting.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                Ruby es popular en la arquitectura de edificios y construcción.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                Ruby es comúnmente utilizado en la música para componer canciones. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                Ruby es una herramienta exclusiva de astronautas en el espacio. 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 18: ¿Dónde se utiliza PHP y cuál es su propósito? </legend>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                PHP se utiliza para programar videojuegos en línea.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Correcta_18" onclick="respuesta(18,this)" />
+                 PHP se usa en el desarrollo web del lado del servidor para crear sitios web dinámicos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 PHP es una herramienta para la edición de videos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 PHP se utiliza para la exploración de cuevas subterráneas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 19: ¿Para qué plataformas se desarrollan aplicaciones con Swift? </legend>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)"/>
+                Swift se utiliza en la creación de programas espaciales para Marte.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 Swift se emplea exclusivamente en el desarrollo de aplicaciones para relojes inteligentes.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Correcta_19" onclick="respuesta(19,this)" />
+                 Swift es el lenguaje de programación de Apple y se utiliza en aplicaciones iOS y macOS.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 Swift es para la programación de electrodomésticos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 20: ¿En qué ámbito se destaca Kotlin? </legend>
+            <label>
+                <input type="radio" name="Pregunta_20" value="" onclick="respuesta(20,this) "/>
+                Kotlin se utiliza en la cría de animales domésticos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="" onclick="respuesta(20,this) "/>
+                 Kotlin se utiliza en la cocina para recetas gourmet.                          
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="" onclick="respuesta(20,this)"/>
+                 Kotlin es exclusivo para la programación de robots industriales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Correcta_20" onclick="respuesta(20,this)"/>
+                Kotlin se utiliza en el desarrollo de aplicaciones Android y es compatible con Java.
+            </label>
+        </fieldset>
+        <br>
+
+        <Center>
+            <button id="Enviar" type="submit">ENVIAR RESULTADOS</button>
+        </Center>
+        
+    </form>
+    <br>
+    <center><button id="Verificar" onclick="corregir()">
+        <img id="Verificar_2" src="imagenes/Verificar .png" alt="Verificar" srcset=""> </button>
+
+       <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/20</H2>
+       <script src="Cuestionario_programación.js"></script>
+</body>
+
+</html>

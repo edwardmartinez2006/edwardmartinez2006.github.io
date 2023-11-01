@@ -1,0 +1,349 @@
+body{
+    background-color: rgb(110, 117, 157);
+}
+#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(82, 82, 69);
+    border-radius: 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#Ca{
+    border-radius: 18px;
+    width: 2000px;
+    height: 400px;
+}
+td{
+    padding-right: 30px;
+}
+#Componentes{
+    background-color: rgb(144, 144, 144);
+    border-radius: 20px;
+}
+
+#C_E{
+    background-color:rgb(251, 255, 170);
+    border-radius: 20px;
+    border: black 2px;
+}
+#C_E:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Switches{
+    background-color:rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Switches:hover{
+    transform: scale(1.04) ;
+    transition: 0.3s;
+}
+
+#Enrutadores{
+    background-color:rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Enrutadores:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Acces{
+    background-color: rgb(247, 255, 102);
+    transition: 0.3s;
+}
+#Acces:hover{
+    transform: scale(1.04);
+    border-radius: 20px;
+}
+
+#Servidores{
+    background-color: rgb(251, 255, 170) ;
+    border-radius: 20px;
+}
+#Servidores:hover{
+    transform: scale(1.04);
+    border-radius: 20px;
+}
+
+#Paneles{
+    background-color: rgb(247, 255, 102) ;
+    border-radius: 20px ;
+}
+#Paneles:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Tarjetas{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Tarjetas:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Patch{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Patch:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Hubs{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Hubs:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Firewalls{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Firewalls:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#A_C{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#A_C:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Racks{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Racks:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+#Topologias{
+    background-color:  rgb(144, 144, 144);
+    border-radius: 20px;
+}
+#Estrella{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Estrella:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+#Bus{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Bus:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+#Anillo{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Anillo:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+#Malla{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Malla:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+#Árbol{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Árbol:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+#Híbrida{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Híbrida:hover{
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+#Normas{
+    background-color: rgb(144, 144, 144);
+    border-radius: 20px;
+}
+#A{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#img_A{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+#img_B{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+#B{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+
+#Cableado_estructurado_img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+
+
+#Tarjetas_red_img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+#img_switch{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#Gabinete_img{
+    height: 300px ;
+    width: auto;
+    border-radius: 10px;
+}
+
+#Servidores_img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+#img_patch{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#img_estrella{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+#img_enrutador{
+    border-radius: 20px;
+    height: 250px;
+    width: auto;
+}
+
+#img_bus{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+
+#img_arbol{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+#img_hibrida{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+#img_malla{
+    border-radius: 20px;
+    height: 300px;
+    width: auto; 
+}
+#img_anillo{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;  
+}
+#img_Acces{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;     
+}
+#img_Panels{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;   
+}
+#img_hub{
+    border-radius: 20px;
+    height: 300px;
+    width: auto; 
+}
+#img_A_C{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}
+#img_firewall{
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}

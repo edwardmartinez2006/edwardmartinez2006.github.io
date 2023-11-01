@@ -1,0 +1,183 @@
+#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(61, 61, 61);
+    border-radius: 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #949494;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#ISO_img{
+    height: auto;
+    width: 2000px;
+}
+
+#_9001{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#_9001:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_9001{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_14001{
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+}
+#_14001:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_14001{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_27001{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#_27001:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_27001{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+#_45001{
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+}
+#_45001:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_45001{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_26000{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#_26000:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_26000{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_50001{
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+}
+#_50001:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_50001{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_13485{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#_13485:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_13485{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_9000{
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+}
+#_9000:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_9000{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#_31000{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#_31000:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#ISO_31000{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#Caracteristicas_img{
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}

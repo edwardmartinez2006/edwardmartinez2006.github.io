@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario de Redes Cableadas</title>
+    <link rel="icon" href="imagenes/ICONO.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Quiz_Cableadas.css">
+</head>
+<body>
+    <a href="main.html">
+        <img src="imagenes/casita.png" alt="inicio" height="50px" width="50px">
+    </a>
+
+    <form id="quizForm" action="mailto: edwartinez2006@gmail.com" method="post" enctype="text/plain">
+        <h2>CUESTIONARIO DE REDES CABLEADAS</h2>
+        <p>Ingresa tu nombre: <input type="text" name="Name" ></p>
+        <fieldset>
+            <legend>Pregunta 1: ¿Qué son las redes cableadas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta"  onclick="respuesta(1,this)"/>
+                 Las redes cableadas son sistemas inalámbricos que utilizan ondas de radio para la transmisión de datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                  Las redes cableadas son redes de computadoras que se comunican a través de satélites en el espacio exterior.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Correcta_1" onclick="respuesta(1,this)" />
+                 Las redes cableadas se refieren a un sistema de interconexión de dispositivos electrónicos
+                  y computadoras mediante cables físicos para la transmisión de datos y señales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 Las redes cableadas son sistemas que utilizan cables eléctricos para transmitir
+                  información a largas distancias sin la necesidad de dispositivos electrónicos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 2: ¿Qué tipo de medios de transmisión física se utilizan en las redes cableadas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Los medios de transmisión física en las redes cableadas son principalmente aire y señales de radio.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Los medios de transmisión física en las redes cableadas son tuberías y conductos subterráneos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Los medios de transmisión física en las redes cableadas son satélites y comunicación por microondas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Correcta_2" onclick="respuesta(2,this)" />
+                 Los medios de transmisión física utilizados en las redes cableadas incluyen cables de cobre, fibra óptica y, en algunos casos, cables coaxiales.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 3: ¿Cuál es una ventaja de las redes cableadas en comparación con las redes inalámbricas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Una ventaja de las redes cableadas es su movilidad, ya que los dispositivos pueden
+                  moverse libremente sin restricciones de cables.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Correcta_3" onclick="respuesta(3,this)" />
+                 Una ventaja de las redes cableadas es su velocidad y confiabilidad, ya que ofrecen
+                  velocidades de transmisión más altas y una conexión más confiable.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Una ventaja de las redes cableadas es su resistencia a las interferencias electromagnéticas y radiofrecuencias.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Una ventaja de las redes cableadas es su capacidad para funcionar sin ningún tipo de hardware o cables.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 4: ¿Por qué las redes cableadas son menos vulnerables a ataques de seguridad que las redes inalámbricas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 Las redes cableadas son menos vulnerables a ataques de seguridad debido a su capacidad para cambiar automáticamente de canal.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 Las redes cableadas son menos vulnerables a ataques de seguridad porque utilizan un
+                  cifrado más débil en comparación con las redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Correcta_4" onclick="respuesta(4,this)" />
+                 Las redes cableadas son menos vulnerables a ataques de seguridad que las redes inalámbricas
+                  porque los datos no se transmiten a través del aire y, por lo tanto, son menos propensos a la interceptación.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)"  />
+                 Las redes cableadas son más vulnerables a ataques de seguridad porque utilizan contraseñas
+                  menos seguras en comparación con las redes inalámbricas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 5: ¿Cuál es la función de los switches (conmutadores) en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                 Los switches en una red cableada son responsables de la administración de servidores.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                 Los switches en una red cableada se utilizan para conectar dispositivos inalámbricos a la red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                 Los switches son dispositivos que permiten la transferencia de energía eléctrica a través de los cables de red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Correcta_5" onclick="respuesta(5,this)" />
+                 Los switches permiten la conexión de múltiples dispositivos a la red y dirigen el tráfico de datos de manera eficiente.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 6: ¿Qué componente se encarga de conectar diferentes redes y facilitar la
+                 transferencia de datos entre ellas en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Correcta_6" onclick="respuesta(6,this)" />
+                 Los enrutadores son responsables de conectar diferentes redes y facilitar la transferencia de datos entre ellas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 Los servidores se encargan de esta función en una red cableada. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 Los switches son los dispositivos que conectan diferentes redes en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 Los hubs son los componentes principales para conectar diferentes redes en una red cableada.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 7: ¿Para qué se utilizan los puntos de acceso en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Los puntos de acceso se utilizan para conectar diferentes redes en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Correcta_7" onclick="respuesta(7,this)" />
+                 Los puntos de acceso se utilizan para la expansión de la red inalámbrica en entornos con cables.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Los puntos de acceso son responsables de la seguridad en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Los puntos de acceso se utilizan para almacenar y compartir recursos en una red cableada.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 8: ¿Qué tipo de dispositivo almacena y comparte recursos y datos en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Los enrutadores almacenan y comparten recursos y datos en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Los switches almacenan y comparten recursos y datos en una red cableada.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Correcta_8" onclick="respuesta(8,this)" />
+                 Los servidores almacenan y comparten recursos y datos en la red, como aplicaciones, archivos y servicios.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Los hubs almacenan y comparten recursos y datos en una red cableada.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 9: ¿Cuál es la función de los paneles de conexión en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los paneles de conexión actúan como servidores en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los paneles de conexión gestionan la seguridad de la red en una red cableada. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los paneles de conexión controlan el tráfico de datos en una red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Correcta_9" onclick="respuesta(9,this)" />
+                 Los paneles de conexión organizan y facilitan la administración de los cables y la conexión de dispositivos cableada.                
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 10: ¿Qué son las tarjetas de interfaz de red (NIC) y dónde se instalan?</legend>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Correcta_10" onclick="respuesta(10,this)" />
+                 Las tarjetas de interfaz de red se instalan en computadoras y dispositivos para permitir la conexión a la red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 Las tarjetas de interfaz de red son dispositivos de seguridad utilizados en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 Las tarjetas de interfaz de red son componentes utilizados en servidores para almacenar datos en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 Las tarjetas de interfaz de red son paneles de conexión utilizados para administrar los cables en una red cableada. 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 11: ¿Cuál es la función de los patch panels en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 Los patch panels son servidores utilizados para almacenar datos en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Correcta_11" onclick="respuesta(11,this)" />
+                 Los patch panels conectan los cables de los dispositivos a la infraestructura de cableado estructurado de manera organizada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 Los patch panels son dispositivos de seguridad utilizados para proteger la red de amenazas cibernéticas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 Los patch panels son switches utilizados para dirigir el tráfico de datos en una red cableada.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 12: ¿Cuándo se utilizan los hubs en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Los hubs se utilizan para almacenar y compartir recursos en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Los hubs se utilizan para dirigir el tráfico de datos en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Correcta_12" onclick="respuesta(12,this)" />
+                 Los hubs se utilizan para conectar varios dispositivos en una red, aunque son menos comunes en la actualidad. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Los hubs se utilizan para proteger la red de amenazas cibernéticas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 13: ¿Cómo garantizan la seguridad de la red en una red cableada los firewalls y dispositivos de seguridad?</legend>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 Los firewalls y dispositivos de seguridad permiten una conexión rápida en la red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 Los firewalls y dispositivos de seguridad almacenan y comparten recursos en la red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 Los firewalls y dispositivos de seguridad se utilizan para conectar diferentes redes en una red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Correcta_13" onclick="respuesta(13,this)" />
+                 Los firewalls y dispositivos de seguridad garantizan la seguridad de la red al protegerla de amenazas y ataques cibernéticos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 14: ¿Qué incluyen los accesorios de cableado en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Correcta_14" onclick="respuesta(14,this)" />
+                 Los accesorios de cableado incluyen conectores, tomas, acopladores y herramientas de crimpado
+                  utilizadas para ensamblar y mantener los cables.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Los accesorios de cableado incluyen servidores y enrutadores.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Los accesorios de cableado son dispositivos que permiten la expansión de la red inalámbrica.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Los accesorios de cableado son estructuras que albergan y protegen los componentes de la red, como switches y enrutadores.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 15: ¿Cuál es la función de los racks y gabinetes en una red cableada?</legend>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Correcta_15" onclick="respuesta(15,this)" />
+                 Los racks y gabinetes son estructuras que albergan y protegen los componentes de la red, como switches, enrutadores y servidores.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 Los racks y gabinetes son dispositivos que permiten la expansión de la red inalámbrica.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 Los racks y gabinetes son herramientas de crimpado utilizadas en la instalación de cables.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 Los racks y gabinetes son dispositivos que almacenan y comparten recursos y datos en la red.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 16: ¿Qué caracteriza a la topología de estrella en una red cableada? </legend>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 En la topología de estrella, los dispositivos están conectados en un bucle cerrado.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Correcta_16" onclick="respuesta(16,this)" />
+                 En la topología de estrella, todos los dispositivos están conectados a un nodo central, como un conmutador o un enrutador.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 En la topología de estrella, los dispositivos están conectados a un único cable o bus de comunicación.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 La topología de estrella combina elementos de la topología de estrella y bus.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 17: ¿Cuál es una ventaja de la topología de bus en términos de simplicidad?</legend>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La topología de bus es simple en su estructura y no tiene desventajas en caso de fallas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Correcta_17" onclick="respuesta(17,this)" />
+                 La topología de bus es simple en su estructura.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La topología de bus es más compleja que otras topologías.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La topología de bus es simple, pero no puede ser implementada en redes.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 18: ¿En qué dirección circulan los datos en una topología de anillo?</legend>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 En una topología de anillo, los datos circulan en múltiples direcciones a la vez.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 En una topología de anillo, los datos circulan en direcciones opuestas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Correcta_18" onclick="respuesta(18,this)" />
+                 En una topología de anillo, los datos circulan en una dirección, pasando de un dispositivo al siguiente en un bucle cerrado.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 En una topología de anillo, los datos circulan de manera aleatoria.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 19: ¿Qué ventaja ofrece la topología de malla en términos de redundancia?</legend>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Correcta_19" onclick="respuesta(19,this)"/>
+                 La topología de malla proporciona redundancia, ya que cada dispositivo está conectado a
+                  todos los demás dispositivos en la red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 La topología de malla no ofrece redundancia.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 La topología de malla ofrece redundancia, pero solo en casos especiales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 La topología de malla solo proporciona redundancia en una dirección.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 20: ¿En qué consiste una topología de red híbrida?</legend>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this) "/>
+                 Una topología de red híbrida combina elementos de todas las topologías mencionadas anteriormente.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this) "/>
+                 En una topología de red híbrida, los datos se transmiten a través de múltiples medios de comunicación.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this)"/>
+                 Una topología de red híbrida implica la creación de redes separadas para diferentes propósitos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Correcta_20" onclick="respuesta(20,this)"/>
+                 En una topología de red híbrida, se combinan varias topologías para cumplir con requisitos específicos,
+                  como la combinación de la topología de estrella y bus en una red empresarial.
+            </label>
+        </fieldset>
+        <br>
+        <Center>
+            <button id="Enviar" type="submit">ENVIAR RESULTADOS</button>
+        </Center>
+        <br>
+        
+    </form>
+
+    <center>
+        <button id="Verificar" onclick="corregir()">
+             <img id="Verificar_img" src="imagenes/Verificar .png" alt="Verificar" srcset="">
+        </button>
+        <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/20</H2>
+
+        <script src="Cuestionario_Cableadas.js"></script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+body{
+    background-color: rgb(110, 117, 157);
+}
+#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(82, 82, 69);
+    border-radius: 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#programación{
+    border-radius: 18px;
+    width: 4500px;
+    height: 350px;
+}
+td{
+    padding-right: 30px;
+}
+#Lenguajes{
+    background-color: rgb(144, 144, 144);
+    border-radius: 20px;
+}
+
+#Python{
+    background-color:rgb(251, 255, 170);
+    border-radius: 20px;
+    border: black 2px;
+}
+#Python:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Python_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#JS{
+    background-color:rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#JS:hover{
+    transform: scale(1.04) ;
+    transition: 0.3s;
+}
+#JS_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+
+#C_mas_mas{
+    background-color:rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#C_mas_mas:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#C_mas_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#Java{
+    background-color: rgb(247, 255, 102);
+    transition: 0.3s;
+}
+#Java:hover{
+    transform: scale(1.04);
+    border-radius: 20px;
+}
+#Java_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+#C_char{
+    background-color: rgb(251, 255, 170) ;
+    border-radius: 20px;
+}
+#C_char:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+#C_char_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+
+#PHP{
+    background-color: rgb(247, 255, 102) ;
+    border-radius: 20px ;
+}
+#PHP:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#PHP_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+
+
+#Ruby{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Ruby:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Ruby_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+
+#Swift{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Swift:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Swift_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+#Kotlin{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Kotlin:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Kotlin_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px; 
+}
+
+#SQL{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#SQL:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#SQL_img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#R{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#R:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#R_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#Go{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Go:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Go_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#R{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#R:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#R_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#Perl{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px;
+}
+#Perl:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Perl_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#Html_Css{
+    background-color: rgb(251, 255, 170);
+    border-radius: 20px;
+}
+#Html_Css:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+#Html_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+#Css_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;     
+}
+
+#Algoritmo{
+    background-color: rgb(144, 144, 144);
+    border-radius: 20px;  
+}
+#Algoritmo_definicion{
+    background-color: rgb(247, 255, 102);
+    border-radius: 20px; 
+}
+
+#Algoritmos_img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#Desarrollo_img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}

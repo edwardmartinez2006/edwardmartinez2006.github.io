@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de redes inalámbricas</title>
+    <link rel="icon" href="imagenes/ICONO.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Quiz_inalambrica.css">
+</head>
+
+<body>
+    <a href="main.html">
+        <img src="imagenes/casita.png" alt="inicio" height="50px" width="50px">
+    </a>
+
+    <form id="quizForm_2"  action="mailto: edwartinez2006@gmail.com" method="post" enctype="text/plain">
+        <h2>CUESTIONARIO DE REDES INALAMBRICAS</h2>
+        <p>Ingresa tu nombre: <input type="text" name="Name" ></p>
+        <fieldset>
+            <legend>Pregunta 1: ¿Qué son las redes inalámbricas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 Las redes inalámbricas son sistemas que utilizan cables para transmitir datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 Las redes inalámbricas son sistemas que utilizan satélites para transmitir datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Correcta_1"  onclick="respuesta(1,this)"/>
+                 Las redes inalámbricas son sistemas de comunicación que permiten la transmisión de datos a través
+                  del aire utilizando ondas electromagnéticas en lugar de cables físicos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />
+                 Las redes inalámbricas son sistemas que utilizan fibras ópticas para transmitir datos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 2: ¿Cuál es otro nombre común para las redes inalámbricas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Otras redes inalámbricas se llaman "Redes de Alta Velocidad".
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Otras redes inalámbricas se llaman "Redes Cableadas".
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                 Otras redes inalámbricas se llaman "Redes Satelitales".
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Correcta_2" onclick="respuesta(2,this)" />
+                 También son conocidas como redes WiFi o WLAN (Wireless Local Area Network).
+            </label>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 3: ¿Cuáles son algunos ejemplos de dispositivos finales que se conectan a una red inalámbrica? </legend>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Dispositivos finales incluyen tostadoras, lavadoras y refrigeradores.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Correcta_3" onclick="respuesta(3,this)" />
+                 Algunos ejemplos de dispositivos finales son computadoras portátiles, teléfonos móviles, tabletas, impresoras y cámaras.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Dispositivos finales son solo servidores y enrutadores.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                 Los dispositivos finales son solo cables de red.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 4: ¿Qué función desempeñan los puntos de acceso (Access Points, AP) en una red inalámbrica?</legend>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 Los puntos de acceso son solo dispositivos de almacenamiento.
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 Los puntos de acceso son dispositivos para recargar baterías.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Correcta_4" onclick="respuesta(4,this)" />
+                 Los puntos de acceso permiten la conexión de dispositivos finales a la red inalámbrica
+                  y actúan como "puentes" entre los dispositivos inalámbricos y la infraestructura de red cableada.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                 Los puntos de acceso son solo aplicaciones de software.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 5: ¿Cuál es el propósito de un router inalámbrico? </legend>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                 El router inalámbrico es solo un amplificador de señal.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                 El router inalámbrico es solo un dispositivo de almacenamiento.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                 El router inalámbrico no tiene un propósito específico.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Correcta_5" onclick="respuesta(5,this)" />
+                 El router inalámbrico combina las funciones de un enrutador y un punto de acceso,
+                  dirigiendo el tráfico entre los dispositivos en la red y hacia y desde Internet.
+            </label>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 6: ¿Qué elementos forman parte de la infraestructura de red cableada? </legend>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 La infraestructura de red cableada incluye antenas y satélites.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 La infraestructura de red cableada no incluye ningún equipo adicional.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Correcta_6" onclick="respuesta(6,this)" />
+                 La infraestructura de red cableada incluye enrutadores, conmutadores, cables Ethernet y otros equipos de red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                 La infraestructura de red cableada incluye solo computadoras.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 7: ¿Qué función tienen las antenas en una red inalámbrica? </legend>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Las antenas son solo elementos decorativos en dispositivos inalámbricos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Correcta_7" onclick="respuesta(7,this)" />
+                 Las antenas son componentes clave de los puntos de acceso y dispositivos inalámbricos,
+                  y ayudan a transmitir y recibir señales inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Las antenas se utilizan para almacenar datos en dispositivos inalámbricos. 
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                 Las antenas son únicamente para cargar baterías.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 8: : ¿Por qué es importante configurar canales y frecuencias en redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Los dispositivos inalámbricos funcionan de manera óptima sin canales o frecuencias específicos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Las redes inalámbricas no utilizan canales ni frecuencias.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                 Las redes inalámbricas utilizan canales y frecuencias para transmitir datos, y es
+                  esencial configurar dispositivos en canales y frecuencias específicos para evitar interferencias.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Correcta_8" onclick="respuesta(8,this)" />
+                 La configuración de canales y frecuencias no afecta el rendimiento de las redes inalámbricas.
+            </label>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 9: ¿Qué son los protocolos de comunicación en redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los protocolos de comunicación son hardware utilizado en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los protocolos de comunicación, como el IEEE 802.11 (WiFi), son estándares utilizados
+                  para garantizar la eficiencia y la seguridad de la comunicación entre dispositivos. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Correcta_9" onclick="respuesta(9,this)" />
+                 Los protocolos de comunicación son solo aplicaciones de software.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                 Los protocolos de comunicación no son relevantes en redes inalámbricas.             
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 10: ¿Por qué es crítica la seguridad en las redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Correcta_10" onclick="respuesta(10,this)" />
+                 La seguridad no es relevante en las redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 La seguridad se logra mediante la divulgación de información libre.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 La seguridad es esencial para proteger la red contra accesos no autorizados y se logra
+                  mediante la autenticación de dispositivos y el cifrado de datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                 La seguridad se logra mediante la exposición de datos sin cifrar.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 11: ¿Qué función cumple el software de gestión en una red inalámbrica?</legend>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 El software de gestión es solo entretenimiento en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 El software de gestión es únicamente para juegos en línea en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Correcta_11" onclick="respuesta(11,this)" />
+                 El software de gestión se utiliza para configurar y administrar la red, controlar el acceso de usuarios y solucionar problemas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                 El software de gestión no es necesario en redes inalámbricas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 12: ¿Qué es Power over Ethernet (PoE) y cuál es su función en redes inalámbricas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Power over Ethernet (PoE) es un juego en línea.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Power over Ethernet (PoE) es una técnica de cocinar alimentos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Correcta_12" onclick="respuesta(12,this)" />
+                 Power over Ethernet (PoE) permite alimentar los puntos de acceso a través de cables de red, lo que simplifica la implementación de la red.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                 Power over Ethernet (PoE) no tiene ninguna función en redes inalámbricas.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 13: ¿Qué ventaja clave ofrecen las redes inalámbricas en términos de movilidad? </legend>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 Las redes inalámbricas no ofrecen ventajas en términos de movilidad.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 La movilidad solo se logra a través de cables en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                 La movilidad solo se logra con satélites en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Correcta_13" onclick="respuesta(13,this)" />
+                 La principal ventaja es que permiten la movilidad, lo que significa que los usuarios pueden
+                  moverse dentro del área de cobertura sin estar conectados por cables.
+            </label>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 14: ¿Cómo se comparan las redes inalámbricas con las redes cableadas en cuanto a la facilidad de instalación? </legend>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Las redes inalámbricas son más difíciles de instalar que las redes cableadas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Las redes inalámbricas son igual de fáciles de instalar que las redes cableadas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Correcta_14" onclick="respuesta(14,this)" />
+                 Las redes inalámbricas suelen ser más fáciles de instalar y ampliar, ya que no requieren la colocación de cables físicos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                 Las redes inalámbricas son imposibles de instalar.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 15: ¿Cuál es la ventaja de la flexibilidad al conectar dispositivos a una red inalámbrica? </legend>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 La flexibilidad en las redes inalámbricas no permite conectar diferentes dispositivos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 La flexibilidad en las redes inalámbricas solo se aplica a dispositivos de juego.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Correcta_15" onclick="respuesta(15,this)" />
+                 La ventaja es que se pueden conectar una variedad de dispositivos, como teléfonos móviles, tabletas y portátiles, sin necesidad de puertos físicos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                 La flexibilidad en las redes inalámbricas solo se aplica a dispositivos de almacenamiento.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 16: ¿Qué beneficio financiero se menciona en el texto en relación con las redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 Las redes inalámbricas aumentan los costos de infraestructura.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Correcta_16" onclick="respuesta(16,this)" />
+                 Se menciona que las redes inalámbricas pueden reducir los costos de infraestructura, como la instalación de cables y tomas de red. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 Las redes inalámbricas no tienen impacto en los costos de infraestructura.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                 Las redes inalámbricas no tienen beneficios financieros.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 17: ¿Qué es la latencia en el contexto de redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La latencia en redes inalámbricas se refiere a la velocidad de transmisión de datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La latencia en redes inalámbricas no afecta la transmisión de datos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Correcta_17" onclick="respuesta(17,this)" />
+                 La latencia se refiere al retraso en la transmisión de datos y puede ser menos predecible en redes inalámbricas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                 La latencia en redes inalámbricas se refiere a la cantidad de datos transmitidos.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 18: ¿Qué limitación se menciona con respecto al alcance de una red inalámbrica? </legend>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Correcta_18" onclick="respuesta(18,this)" />
+                 El alcance de una red inalámbrica está limitado por la potencia de la señal y la presencia de obstáculos físicos, lo que puede requerir más puntos de acceso en áreas grandes.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 El alcance de una red inalámbrica no tiene limitaciones.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 El alcance de una red inalámbrica está limitado solo por la velocidad de transmisión.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                 El alcance de una red inalámbrica está limitado por la cantidad de dispositivos conectados.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 19: ¿Qué estándar se menciona como el más nuevo en redes WiFi? </legend>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Correcta_19" onclick="respuesta(19,this)"/>
+                 El estándar más nuevo mencionado es el IEEE 802.11ax, también conocido como WiFi 6.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 El estándar más nuevo es el IEEE 802.3.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 El estándar más nuevo es el IEEE 802.22.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                 El estándar más nuevo es el IEEE 802.15.
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 20: ¿Qué riesgo de seguridad se destaca en el texto en relación con las redes inalámbricas? </legend>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this) "/>
+                 Las redes inalámbricas no presentan riesgos de seguridad.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this)"/>
+                 Las redes inalámbricas son más seguras que las redes cableadas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this)"/>
+                 Las redes inalámbricas son invulnerables a ataques de seguridad.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Correcta_20" onclick="respuesta(20,this) "/>
+                 Se menciona que las redes inalámbricas son más vulnerables a ataques de seguridad, como el acceso no autorizado, si no se implementan medidas adecuadas de seguridad como la encriptación.
+            </label>
+            <br>
+        </fieldset>
+        <br>  
+        <Center>
+            <button id="Enviar" type="submit">ENVIAR RESULTADOS</button>
+        </Center>
+        <br>
+    </form>
+
+    <center><button id="Verificar" onclick="corregir()">
+         <img id="Verificar_2" src="imagenes/Verificar .png" alt="Verificar" srcset=""> </button>
+
+        <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/20</H2>
+
+        <script src="Cuestionario_inalambricas.js"></script>
+</body>
+</html>

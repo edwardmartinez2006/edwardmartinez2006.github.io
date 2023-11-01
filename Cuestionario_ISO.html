@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cuestionario de normas ISO</title>
+    <link rel="icon" href="imagenes/ICONO.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Quiz_ISO.css">
+</head>
+<body>
+    <a href="main.html">
+        <img src="imagenes/casita.png" alt="inicio" height="50px" width="50px">
+    </a>
+    <form id="quizForm" action="mailto: edwartinez2006@gmail.com" method="post" enctype="text/plain">
+        <h2>CUESTIONARIO DE NORMAS ISO</h2>
+        <p>Ingresa tu nombre: <input type="text" name="Name" ></p>
+        
+        <fieldset>
+            <legend>Pregunta 1: ¿Qué significan las siglas ISO en relación con las normas?</legend>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta"  onclick="respuesta(1,this)"/>
+                ISO significa "Instituto de Estándares y Organización" en inglés (Institute of Standards and Organization).  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" />  
+                ISO significa "Normativas Globales de Calidad" en inglés (Global Quality Standards). 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Correcta_1" onclick="respuesta(1,this)" /> 
+                ISO significa "Organización Internacional de Normalización" en inglés (International Organization for Standardization). 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_1" value="Incorrecta" onclick="respuesta(1,this)" /> 
+                ISO significa "Asociación Internacional de Estandarización" en inglés (International Association of Standardization). 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 2: ¿Cuál es el propósito de las normas ISO?</legend>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Correcta_2" onclick="respuesta(2,this)" />
+                El propósito de las normas ISO es promover la competencia desleal en el mercado.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                El propósito de las normas ISO es fomentar la creatividad y la innovación en la industria. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Incorrecta" onclick="respuesta(2,this)" />
+                El propósito de las normas ISO es estandarizar únicamente los productos electrónicos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_2" value="Correcta_2" onclick="respuesta(2,this)" />
+                Las normas ISO tienen como propósito asegurar la calidad, seguridad, eficiencia y compatibilidad de productos, servicios y sistemas a nivel mundial.   
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 3: ¿Qué papel desempeñan las normas ISO en la uniformidad y calidad de productos y servicios? </legend>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                Las normas ISO no tienen ningún impacto en la uniformidad y calidad de productos y servicios.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Correcta_3" onclick="respuesta(3,this)" />
+                Las normas ISO establecen especificaciones técnicas que ayudan a garantizar la uniformidad y calidad en la fabricación y prestación de productos y servicios. (C) 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" />
+                Las normas ISO solo se aplican a productos y no tienen relación con la calidad de servicios.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_3" value="Incorrecta" onclick="respuesta(3,this)" /> 
+                Las normas ISO solo se enfocan en la uniformidad de la moda y la belleza. 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 4: ¿Por qué es importante la aplicabilidad global de las normas ISO?</legend>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                La aplicabilidad global de las normas ISO solo aumenta los costos para las empresas.   
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Correcta_4" onclick="respuesta(4,this)" />
+                La aplicabilidad global de las normas ISO facilita el comercio internacional y la cooperación entre organizaciones y países. 
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)" />
+                La aplicabilidad global de las normas ISO solo beneficia a las grandes corporaciones  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_4" value="Incorrecta" onclick="respuesta(4,this)"  />
+                La aplicabilidad global de las normas ISO solo se aplica a las empresas de un solo país.   
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 5: ¿En qué áreas abarcan las normas ISO? </legend>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                Las normas ISO solo se aplican en el ámbito de la tecnología de la información.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)"  />
+                Las normas ISO solo se centran en la regulación de parques temáticos y atracciones.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Incorrecta" onclick="respuesta(5,this)" />
+                Las normas ISO únicamente se aplican a la fabricación de juguetes para niños.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_5" value="Correcta_5" onclick="respuesta(5,this)" />
+                Las normas ISO abarcan una amplia gama de sectores, incluyendo la gestión de calidad, seguridad de la información, gestión ambiental, seguridad alimentaria y más.   
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 6: ¿Por qué se usan las normas ISO como base para la mejora continua en organizaciones? </legend>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Correcta_6" onclick="respuesta(6,this)" />
+                Las normas ISO a menudo se utilizan como base para implementar sistemas de gestión y procesos de mejora continua en organizaciones 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                Las normas ISO no tienen utilidad en la mejora continua de procesos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                Las normas ISO son exclusivamente para la certificación de productos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_6" value="Incorrecta" onclick="respuesta(6,this)" />
+                Las normas ISO se centran en la mejora continua de la cocina en restaurantes. 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 7: ¿Qué es ISO 9001 y en qué se enfoca? </legend>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                ISO 9001 es una norma que se enfoca en la gestión de recursos humanos en organizaciones.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                ISO 9001 es una norma relacionada con la gestión financiera de empresas.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Incorrecta" onclick="respuesta(7,this)" />
+                ISO 9001 se enfoca en la seguridad de la información en línea.  
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_7" value="Correcta_7" onclick="respuesta(7,this)" />
+                ISO 9001 es una norma que se enfoca en sistemas de gestión de calidad y establece requisitos para implementar un sistema de gestión de calidad efectivo.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 8: ¿Cuál es el propósito de ISO 14001? </legend>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                ISO 14001 se centra en la gestión de la calidad de productos electrónicos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Correcta_8" onclick="respuesta(8,this)" />
+                ISO 14001 se enfoca en la gestión ambiental y ayuda a las organizaciones a minimizar su impacto en el entorno.   
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                SO 14001 se relaciona con la producción de alimentos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_8" value="Incorrecta" onclick="respuesta(8,this)" />
+                ISO 14001 no tiene un propósito definido.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 9: ¿Qué aspectos abarca la norma ISO 27001? </legend>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                ISO 27001 se enfoca en la seguridad de la información personal en redes sociales.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                ISO 27001 trata sobre la gestión de la cadena de suministro.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Incorrecta" onclick="respuesta(9,this)" />
+                ISO 27001 se relaciona con la regulación de productos químicos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_9" value="Correcta_9" onclick="respuesta(9,this)" />
+                ISO 27001 se centra en la seguridad de la información y establece requisitos para la gestión de la seguridad de los datos.                  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 10: ¿En qué se enfoca ISO 45001 y a quién beneficia? </legend>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                ISO 45001 se enfoca en la fabricación de dispositivos móviles.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                ISO 45001 se relaciona con la normativa de construcción de edificios.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Incorrecta" onclick="respuesta(10,this)" />
+                ISO 45001 se enfoca en la producción de alimentos 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_10" value="Correcta_10" onclick="respuesta(10,this)" />
+                ISO 45001 se enfoca en la seguridad y salud en el trabajo, beneficiando a los trabajadores y reduciendo riesgos laborales en el lugar de trabajo.   
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 11: ¿Cuál es el propósito de ISO 22000?</legend>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Correcta_11" onclick="respuesta(11,this)" />
+                ISO 22000 se centra en la seguridad alimentaria y establece requisitos para sistemas de gestión de seguridad alimentaria.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                ISO 22000 se relaciona con la regulación de la industria textil 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                ISO 22000 se enfoca en la gestión de eventos deportivos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_11" value="Incorrecta" onclick="respuesta(11,this)" />
+                ISO 22000 trata sobre la seguridad en el transporte aéreo.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 12: ¿Qué directrices proporciona ISO 26000?</legend>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                ISO 26000 se enfoca en la gestión de proyectos de construcción.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                ISO 26000 se relaciona con la producción de alimentos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Correcta_12" onclick="respuesta(12,this)" />
+                ISO 26000 proporciona directrices para la responsabilidad social empresarial, alentando a las organizaciones a tomar decisiones socialmente responsables.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_12" value="Incorrecta" onclick="respuesta(12,this)" />
+                ISO 26000 establece estándares para la seguridad de la información en línea
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 13: ¿En qué se especializa ISO 50001? </legend>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                ISO 50001 se centra en la regulación de la moda y el vestuario 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                ISO 50001 se relaciona con la gestión de recursos humanos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Incorrecta" onclick="respuesta(13,this)" />
+                ISO 50001 trata sobre la gestión de proyectos de construcción.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_13" value="Correcta_13" onclick="respuesta(13,this)" /> 
+                ISO 50001 se enfoca en la gestión de la energía y establece estándares para mejorar la eficiencia energética. 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 14: ¿A qué industria se aplica la norma ISO 13485? </legend>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Correcta_14" onclick="respuesta(14,this)" />
+                La norma ISO 13485 se aplica a la industria de dispositivos médicos y establece requisitos para sistemas de gestión de calidad específicos para este sector.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                ISO 13485 se relaciona con la gestión de la cadena de suministro. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                ISO 13485 se enfoca en la seguridad de la información en línea.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_14" value="Incorrecta" onclick="respuesta(14,this)" />
+                ISO 13485 se centra en la seguridad alimentaria.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 15: ¿Qué proporciona ISO 9000? </legend>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                ISO 9000 se enfoca en la regulación de la industria automotriz.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Correcta_15" onclick="respuesta(15,this)" />
+                ISO 9000 ofrece una introducción a los conceptos y términos clave relacionados con la gestión de calidad y sirve como base para otras normas ISO 9000. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                ISO 9000 proporciona directrices para la gestión de la cadena de suministro.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_15" value="Incorrecta" onclick="respuesta(15,this)" />
+                ISO 9000 trata sobre la seguridad en el transporte marítimo.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 16: ¿Qué establece ISO 31000? </legend>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Correcta_16" onclick="respuesta(16,this)" /> 
+                ISO 31000 establece principios y directrices para la gestión efectiva de riesgos en organizaciones, independientemente de su sector o tamaño. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                ISO 31000 se enfoca en la gestión de eventos deportivos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                ISO 31000 establece normas para la producción de juguetes infantiles.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_16" value="Incorrecta" onclick="respuesta(16,this)" />
+                ISO 31000 se relaciona con la regulación de la industria de la moda.   
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 17: ¿Cuál es la ventaja de mejorar la calidad mediante la aplicación de normas ISO? </legend>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                La mejora de calidad a través de normas ISO no tiene impacto en la satisfacción del cliente.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                Mejorar la calidad a través de normas ISO puede llevar a una reducción de la productividad en la empresa.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Incorrecta" onclick="respuesta(17,this)" />
+                La mejora de calidad a través de normas ISO solo se aplica a la industria de la construcción.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_17" value="Correcta_17" onclick="respuesta(17,this)" />
+                Mejorar la calidad a través de normas ISO puede llevar a una mayor satisfacción del cliente y a una mayor competitividad en el mercado 
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 18: ¿Por qué las normas ISO son útiles para la eficiencia operativa?</legend>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Correcta_18" onclick="respuesta(18,this)" />
+                Las normas ISO promueven la eficiencia operativa y la optimización de procesos, lo que reduce costos y desperdicios.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                Las normas ISO no tienen relación con la eficiencia operativa. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                Las normas ISO aumentan los costos operativos y la ineficiencia en las organizaciones. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_18" value="Incorrecta" onclick="respuesta(18,this)" />
+                Las normas ISO solo se aplican a la industria de la música.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 19: ¿En qué sectores altamente regulados son relevantes las normas ISO?</legend>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)"/>
+                Las normas ISO son relevantes en sectores altamente regulados como la industria de los deportes extremos.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Correcta_19" onclick="respuesta(19,this)" />
+                Las normas ISO son relevantes en sectores altamente regulados como la salud, la alimentación y la seguridad de la información.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                Las normas ISO son relevantes en sectores altamente regulados como la producción de juguetes.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_19" value="Incorrecta" onclick="respuesta(19,this)" />
+                Las normas ISO son relevantes en sectores altamente regulados como la industria de los videojuegos.  
+            </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Pregunta 20: ¿Cómo afecta la adopción de normas ISO la imagen de la empresa?</legend>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Correcta_20" onclick="respuesta(20,this) "/>
+                La adopción de normas ISO puede mejorar la imagen de la empresa al demostrar su compromiso con la calidad y la responsabilidad social. 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this) "/>
+                La adopción de normas ISO no tiene ningún impacto en la imagen de la empresa.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this)"/>
+                La adopción de normas ISO empeora la imagen de la empresa al aumentar los costos de producción.  
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Pregunta_20" value="Incorrecta" onclick="respuesta(20,this)"/>
+                La adopción de normas ISO solo se relaciona con la eficiencia operativa.  
+            </label>
+        </fieldset>
+        <br>
+        <Center>
+            <button id="Enviar" type="submit">ENVIAR RESULTADOS</button>
+        </Center>
+        
+        
+    </form>  
+    <br>
+    <center><button id="Verificar" onclick="corregir()">
+        <img id="Verificar_2" src="imagenes/Verificar .png" alt="Verificar" srcset=""> </button>
+
+       <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/20</H2>
+       <script src="Cuestionario_ISO.js"></script>
+</body>
+</html>
